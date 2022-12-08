@@ -94,3 +94,20 @@ h6 {
 html {
   font-size: 62.5%;
 }
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.container {
+  max-width: 136.8rem;
+  width: 100%;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 5.5rem 0;
+}/*# sourceMappingURL=style.css.map */
