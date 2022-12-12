@@ -1,0 +1,119 @@
+.skills {
+   padding: vw(60) 0;
+
+   &__title {
+      text-align: center;
+      margin-bottom: vw(112);
+   }
+   &__text {
+      font-size: vw(16);
+      line-height: vw(24);
+      color: $color-gray;
+   }
+   &__grid {
+      display: grid;
+      grid-template-areas:
+         "one two three"
+         "one four four";
+      gap: vw(18);
+      justify-content: space-evenly;
+      align-items: stretch;
+   }
+   &__item {
+      background: $color-background;
+      border-radius: vw(10);
+      padding-left: vw(43);
+		padding-right: vw(43);
+		
+   }
+
+   &__image {
+   }
+
+	
+
+
+		
+   &__btn {
+      background: $color-black;
+      border-radius: vw(5);
+      color: #fff;
+      padding: vw(15) vw(52);
+      font-weight: 500;
+      font-size: vw(20);
+      line-height: vw(30);
+   }
+ 
+}
+
+.speaking {
+   grid-area: one;
+	padding-top: vw(37);
+	padding-bottom: vw(85);
+	&__text {
+		max-width: vw(300);
+		margin-bottom: vw(35);
+	}
+   &__text-top {
+		margin-bottom: vw(24);
+      
+	}
+   &__title {
+       margin-bottom: vw(30);
+      }
+	&__img {
+		margin-bottom: vw(25);
+	}
+   }
+
+.writing {
+   grid-area: two;
+	padding-bottom: vw(44);
+	&__img {
+		padding-left: vw(110);
+		margin-bottom: vw(-20);
+	}
+	&__title {
+		margin-bottom: vw(16);
+	}
+	&__text {
+		max-width: vw(300);
+		margin-bottom: vw(32);
+	}
+
+	}
+
+.reading {
+   grid-area: three;
+	&__text {
+		margin-bottom: vw(35);
+	}
+	&__img {
+		margin-bottom: vw(31);
+	}
+	&__title {
+		margin-bottom: vw(10);
+		}
+	}
+
+.listening {
+   grid-area: four;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+	padding-top: vw(45);
+	padding-bottom: vw(17);
+	&__title {
+		margin-bottom: vw(20);
+	}
+	&__text {
+		max-width: vw(293);
+		margin-bottom: vw(23);
+	}
+	&__descr {
+		padding-top: vw(13);
+	}
+}
+.listening .skills__image {
+   order: 1;
+}

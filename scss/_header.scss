@@ -1,0 +1,95 @@
+.header {
+   padding: vw(57) 0;
+   &__top {
+      display: flex;
+      justify-content: space-between;
+   }
+   &__logo {
+      max-width: vw(105);
+      max-height: vw(54);
+      padding-top: vw(13);
+      margin-right: vw(200);
+   }
+   &__block {
+      display: flex;
+      justify-content: space-between;
+   }
+   &__list {
+      display: flex;
+      justify-content: space-between;
+   }
+   &__nav {
+      margin-right: vw(232);
+      padding-top: vw(14);
+   }
+   &__item {
+      font-weight: 700;
+      font-size: vw(20);
+      line-height: vw(30);
+      color: $color-black;
+   }
+   &__item:not(:last-child) {
+      margin-right: vw(45);
+   }
+   &__btn {
+      border: 2px solid $color-black;
+      border-radius: 5px;
+      color: #000;
+      font-size: vw(24);
+      line-height: vw(36);
+      padding: vw(17) vw(57);
+   }
+}
+.hero {
+   padding-top: vw(45);
+   display: flex;
+   justify-content: space-between;
+
+	&__descr {
+   	padding-top: vw(50);
+   	max-width: vw(507);
+   	display: flex;
+   	flex-direction: column;
+}
+
+	&__title {
+		position: relative;
+   	font-weight: 600;
+   	font-size: vw(64);
+   	line-height: vw(80);
+   	color: #000;
+   	margin-bottom: vw(40);
+}
+	&__title::after {
+		content: "";
+		position: absolute;
+		background: url("../images/icons/light-bulb.svg");
+		width: vw(100);
+		height: vw(100);
+		top: vw(90);
+		right: vw(0);
+	}
+	&__text {
+   	display: block;
+   	font-size: vw(24);
+   	line-height: vw(36);
+   	color: $color-gray;
+   	margin-bottom: vw(61);
+}
+	&__btn {
+   	background: $color-black;
+   	border-radius: vw(15);
+   	font-size: vw(36);
+   	color: #fff;
+   	width: vw(438);
+   	height: vw(118);
+   	padding: vw(32) vw(118);
+}
+.btn {
+}
+
+.hero__img {
+}
+.gtro-img {
+}
+}
